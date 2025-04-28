@@ -1,0 +1,117 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/login/page.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.page_loginContainer__bdVix {
+  padding: 24px 16px;
+}
+
+.page_boxContainer__xs0L_ {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_loginPaper__gz3iy {
+  padding: 32px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom, rgba(25, 118, 210, 0.05), rgba(255, 255, 255, 1));
+  position: relative;
+  overflow: hidden;
+}
+
+.page_loginPaper__gz3iy::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #0d47a1, #42a5f5);
+}
+
+.page_avatarIcon__kATzD {
+  width: 64px !important;
+  height: 64px !important;
+  background-color: #1976d2 !important;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+}
+
+.page_loginTitle__hyfgN {
+  font-weight: 700 !important;
+  color: #1976d2;
+}
+
+.page_errorAlert__J54D4 {
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.page_formContainer__bmoTi {
+  display: flex;
+  flex-direction: column;
+}
+
+.page_inputIcon__38Rtv {
+  color: #1976d2 !important;
+}
+
+.page_inputField__VMjbH .page_MuiOutlinedInput-root__7S3pd.page_Mui-focused__MysZ4 .page_MuiOutlinedInput-notchedOutline__tfeyy {
+  border-color: #1976d2;
+}
+
+.page_visibilityButton___z1tQ {
+  color: #1976d2;
+}
+
+.page_forgotLink__By6dE {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.page_forgotLink__By6dE:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+.page_loginButton__CelAH {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  transition: all 0.3s ease;
+}
+
+.page_loginButton__CelAH:hover:not(:disabled) {
+  background: linear-gradient(90deg, #1565c0, #1976d2);
+  box-shadow: 0 6px 16px rgba(25, 118, 210, 0.4);
+  transform: translateY(-2px);
+}
+
+.page_loginButton__CelAH:disabled {
+  background: #e0e0e0;
+  color: #9e9e9e;
+}
+
+.page_noAccountText__ga3j3 {
+  color: #000000;
+  margin-right: 8px;
+}
+
+.page_registerLink__DwSUm {
+  color: #1976d2 !important;
+  font-weight: bold !important;
+}
+
+.page_registerLink__DwSUm:hover {
+  text-decoration: underline;
+  background-color: transparent !important;
+}

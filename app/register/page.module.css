@@ -1,0 +1,121 @@
+/* Container and Paper styles */
+.registerContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+.registerPaper {
+    padding: 32px;
+    margin-top: 64px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, rgba(25, 118, 210, 0.02), rgba(255, 255, 255, 1));
+    position: relative;
+    overflow: hidden;
+}
+
+.registerPaper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+}
+
+/* Avatar and Typography */
+.avatarIcon {
+    width: 64px !important;
+    height: 64px !important;
+    background-color: #1976d2 !important;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+}
+
+.registerTitle {
+    font-weight: 700 !important;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #1976d2;
+    position: relative;
+}
+
+.sectionTitle {
+    font-weight: 600 !important;
+    margin-bottom: 16px;
+    color: #555;
+    font-size: 1.05rem !important;
+    position: relative;
+    padding-left: 12px;
+    border-left: 4px solid #1976d2;
+}
+
+/* Form layouts */
+.nameFieldsContainer {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+    .nameFieldsContainer {
+        flex-direction: column;
+    }
+}
+
+.nameField {
+    flex: 1;
+}
+
+.formSection {
+    margin-bottom: 24px;
+}
+
+.emailField {
+    flex: 3;
+}
+
+/* Buttons */
+.otpButton {
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.registerButton {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+    transition: all 0.3s ease;
+}
+
+.registerButton:hover:not(:disabled) {
+    background: linear-gradient(90deg, #1565c0, #1976d2);
+    box-shadow: 0 6px 16px rgba(25, 118, 210, 0.4);
+    transform: translateY(-2px);
+}
+
+.registerButton:disabled {
+    background: #e0e0e0;
+    color: #9e9e9e;
+}
+
+/* Alert and divider */
+.errorAlert {
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+/* Blue Icons - เพิ่มสไตล์ให้ไอคอนเป็นสีฟ้า */
+.blueIcon {
+    color: #1976d2;
+}

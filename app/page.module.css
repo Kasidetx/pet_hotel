@@ -1,0 +1,199 @@
+.container {
+    background-color: #f8faff;
+    min-height: 100vh;
+}
+
+.heroSection {
+    position: relative;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/Dog-wallpaper.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heroSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+}
+
+.heroContent {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.heroTitle {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.heroDescription {
+    color: white;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.heroButton {
+    padding: 12px 32px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    margin-top: 1.5rem;
+}
+
+.heroButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.featuresSection {
+    padding: 64px 0;
+}
+
+.featureCard {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+}
+
+.featureIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.featureIconSize {
+    font-size: 45px;
+    color: white;
+}
+
+.featureTitle {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.featureDescription {
+    line-height: 1.6;
+}
+
+.aboutSection {
+    padding: 64px 0;
+    background-color: white;
+}
+
+.aboutTitle {
+    font-weight: bold;
+    color: #333333;
+}
+
+.aboutDivider {
+    width: 80px;
+    height: 4px;
+    margin: 0 auto 32px;
+    background-color: #1976d2;
+}
+
+.aboutText {
+    font-size: 17.6px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.contactSection {
+    padding: 64px 0;
+    background-color: #e3f2fd;
+}
+
+.contactTitle {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.contactCard {
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+    height: 100%;
+}
+
+.contactIcon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 16px;
+}
+
+.locationIconBg {
+    background-color: #ffebee;
+}
+
+.locationIconColor {
+    color: #f44336;
+    font-size: 30px;
+}
+
+.phoneIconBg {
+    background-color: #e3f2fd;
+}
+
+.phoneIconColor {
+    color: #2196f3;
+    font-size: 30px;
+}
+
+.contactSubtitle {
+    font-weight: 500;
+}
+
+.footer {
+    padding: 24px 0;
+    background-color: #263238;
+    color: white;
+}
+
+@media (max-width: 960px) {
+    .heroTitle {
+        font-size: 32px;
+    }
+
+    .heroDescription {
+        font-size: 16px;
+    }
+
+    .aboutTitle {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .heroButton {
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+
+    .featureIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .featureIconSize {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,203 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.page_container__jZF7q {
+    background-color: #f8faff;
+    min-height: 100vh;
+}
+
+.page_heroSection__OcWIo {
+    position: relative;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/Dog-wallpaper.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page_heroSection__OcWIo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+}
+
+.page_heroContent__dzLob {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.page_heroTitle__ixXIp {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.page_heroDescription__BOlMS {
+    color: white;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.page_heroButton__1XkBj {
+    padding: 12px 32px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    margin-top: 1.5rem;
+}
+
+.page_heroButton__1XkBj:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.page_featuresSection__54_Nl {
+    padding: 64px 0;
+}
+
+.page_featureCard__swyBK {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+}
+
+.page_featureIcon__UHR_A {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.page_featureIconSize__Tardc {
+    font-size: 45px;
+    color: white;
+}
+
+.page_featureTitle__pGLZ6 {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.page_featureDescription__RYtW4 {
+    line-height: 1.6;
+}
+
+.page_aboutSection__RYz7_ {
+    padding: 64px 0;
+    background-color: white;
+}
+
+.page_aboutTitle__PY4Dw {
+    font-weight: bold;
+    color: #333333;
+}
+
+.page_aboutDivider__fWSVL {
+    width: 80px;
+    height: 4px;
+    margin: 0 auto 32px;
+    background-color: #1976d2;
+}
+
+.page_aboutText__ge1Iz {
+    font-size: 17.6px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.page_contactSection__B7plO {
+    padding: 64px 0;
+    background-color: #e3f2fd;
+}
+
+.page_contactTitle__cbkrp {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.page_contactCard__WVov1 {
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+    height: 100%;
+}
+
+.page_contactIcon__nfo9f {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 16px;
+}
+
+.page_locationIconBg__3m_jG {
+    background-color: #ffebee;
+}
+
+.page_locationIconColor__MC7Tk {
+    color: #f44336;
+    font-size: 30px;
+}
+
+.page_phoneIconBg___jw_u {
+    background-color: #e3f2fd;
+}
+
+.page_phoneIconColor__SDmCJ {
+    color: #2196f3;
+    font-size: 30px;
+}
+
+.page_contactSubtitle__YLygP {
+    font-weight: 500;
+}
+
+.page_footer__F3MD0 {
+    padding: 24px 0;
+    background-color: #263238;
+    color: white;
+}
+
+@media (max-width: 960px) {
+    .page_heroTitle__ixXIp {
+        font-size: 32px;
+    }
+
+    .page_heroDescription__BOlMS {
+        font-size: 16px;
+    }
+
+    .page_aboutTitle__PY4Dw {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .page_heroButton__1XkBj {
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+
+    .page_featureIcon__UHR_A {
+        width: 60px;
+        height: 60px;
+    }
+
+    .page_featureIconSize__Tardc {
+        font-size: 35px;
+    }
+}
+

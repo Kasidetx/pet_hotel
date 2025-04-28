@@ -1,0 +1,183 @@
+.loadingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    overflow: visible;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.headerSection {
+    background-color: #1976d2;
+    color: white;
+    padding: 24px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #0d47a1;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid white;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.title {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.contentSection {
+    padding: 32px;
+    padding-top: 48px;
+    margin-top: 16px;
+}
+
+.infoRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.infoRow svg {
+    margin-right: 16px;
+    color: #1976d2;
+}
+
+.editContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.fieldLabel {
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.fieldLabel svg {
+    margin-right: 8px;
+    color: #1976d2;
+}
+
+.textField {
+    flex: 1;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.button {
+    border-radius: 8px;
+    text-transform: none;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.editButton {
+    position: absolute;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+}
+
+.editButton:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.errorText {
+    margin-top: 16px;
+    color: #d32f2f;
+    font-weight: 500;
+}
+
+.actionButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.infoLabel {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+
+.infoValue {
+    font-size: 20px;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.whiteButton {
+    background-color: #ffffff !important;
+    color: #1976d2 !important;
+    border: 1px solid #1976d2 !important;
+}
+
+.whiteButton:hover {
+    background-color: #f0f0f0 !important;
+}
+
+@media (max-width: 600px) {
+    .editContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttonsContainer {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

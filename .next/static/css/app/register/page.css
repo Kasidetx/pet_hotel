@@ -1,0 +1,124 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/register/page.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+/* Container and Paper styles */
+.page_registerContainer__KAngv {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+.page_registerPaper__sdSMe {
+    padding: 32px;
+    margin-top: 64px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, rgba(25, 118, 210, 0.02), rgba(255, 255, 255, 1));
+    position: relative;
+    overflow: hidden;
+}
+
+.page_registerPaper__sdSMe::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+}
+
+/* Avatar and Typography */
+.page_avatarIcon__RYsN0 {
+    width: 64px !important;
+    height: 64px !important;
+    background-color: #1976d2 !important;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+}
+
+.page_registerTitle__H9okM {
+    font-weight: 700 !important;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #1976d2;
+    position: relative;
+}
+
+.page_sectionTitle__uufxv {
+    font-weight: 600 !important;
+    margin-bottom: 16px;
+    color: #555;
+    font-size: 1.05rem !important;
+    position: relative;
+    padding-left: 12px;
+    border-left: 4px solid #1976d2;
+}
+
+/* Form layouts */
+.page_nameFieldsContainer__NpRJx {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+    .page_nameFieldsContainer__NpRJx {
+        flex-direction: column;
+    }
+}
+
+.page_nameField__mJaOa {
+    flex: 1;
+}
+
+.page_formSection__IuQtu {
+    margin-bottom: 24px;
+}
+
+.page_emailField__WM0os {
+    flex: 3;
+}
+
+/* Buttons */
+.page_otpButton__Ap4B2 {
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.page_registerButton__FXdm6 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+    transition: all 0.3s ease;
+}
+
+.page_registerButton__FXdm6:hover:not(:disabled) {
+    background: linear-gradient(90deg, #1565c0, #1976d2);
+    box-shadow: 0 6px 16px rgba(25, 118, 210, 0.4);
+    transform: translateY(-2px);
+}
+
+.page_registerButton__FXdm6:disabled {
+    background: #e0e0e0;
+    color: #9e9e9e;
+}
+
+/* Alert and divider */
+.page_errorAlert__pvpwO {
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+/* Blue Icons - เพิ่มสไตล์ให้ไอคอนเป็นสีฟ้า */
+.page_blueIcon__XMH3n {
+    color: #1976d2;
+}

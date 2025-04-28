@@ -1,0 +1,145 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/layout.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.layout_headerAppBar__87xbK {
+    background-color: #6F4F37;
+    background-image: linear-gradient(135deg, #6F4F37 0%, #9E7C53 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    height: 120px;
+}
+
+.layout_toolbar__lhEti {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+.layout_appLogo__CUhSQ {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.layout_appLogo__CUhSQ img {
+    transition: transform 0.3s ease;
+}
+
+.layout_appLogo__CUhSQ img:hover {
+    transform: scale(1.05);
+}
+
+.layout_centerLink__4MwPL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0 32px;
+}
+
+.layout_navButtons__m9gdX {
+    display: flex;
+    gap: 16px;
+}
+
+.layout_profileBtn__deH92 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 8px 16px;
+    transition: all 0.2s ease;
+}
+
+.layout_profileBtn__deH92:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.layout_mainContent__0mFuc {
+    background-color: #FFFAF0;
+    min-height: calc(100vh - 80px);
+    padding: 32px 0;
+    background-image: linear-gradient(rgba(255, 250, 240, 0.9), rgba(255, 250, 240, 0.9));
+    background-attachment: fixed;
+}
+
+.layout_container__Yo0Pg {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    animation: layout_fadeIn__eC_Lb 0.5s ease-out;
+}
+
+@keyframes layout_fadeIn__eC_Lb {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.layout_welcomeText__8y5cE {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.layout_userAvatar__qtP9u {
+    background-color: #4C372B;
+    color: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.layout_drawerHeader__Q6urI {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #4C372B;
+}
+
+.layout_drawerItem__CxfDU {
+    margin: 8px 0;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.layout_drawerItem__CxfDU:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.layout_loginLink__1CGEx {
+    margin-left: 8px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.layout_loginLink__1CGEx:hover {
+    text-decoration: none;
+}
+
+.layout_loginLink__1CGEx::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.layout_loginLink__1CGEx:hover::after {
+    width: 100%;
+}

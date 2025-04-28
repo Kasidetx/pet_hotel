@@ -1,0 +1,296 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/booking/page.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.page_pageWrapper__PBMYD {
+    background-color: #f8faff;
+    background-image: linear-gradient(to bottom, rgba(219, 234, 254, 0.3), rgba(244, 247, 254, 0.6));
+    min-height: 100vh;
+    padding: 20px 0 60px;
+  }
+  
+  .page_pageContainer__vcldY {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  }
+  
+  .page_pageHeader__NcaI6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .page_titleContainer__4PmZQ {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .page_titleIcon__DLsjt {
+    color: #F08A5D;
+  }
+  
+  .page_divider__vFsS8 {
+    margin-bottom: 24px !important;
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+  .page_statusAlert__DlvrK {
+    margin-bottom: 24px !important;
+    animation: page_fadeIn__xBWyo 0.5s ease;
+  }
+  
+  .page_roomCard__Cy6BS {
+    margin-bottom: 32px;
+    transition: transform 0.3s ease;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+  }
+  
+  .page_roomCard__Cy6BS:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .page_imageCard__Xcdgk {
+    position: relative;
+    height: 100%;
+    min-height: 220px;
+    overflow: hidden;
+  }
+  
+  .page_ribbonContainer__te648 {
+    position: absolute;
+    top: 16px;
+    left: -30px;
+    z-index: 1;
+  }
+  
+  .page_ribbon___Uvcr {
+    background: #F08A5D;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 30px;
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .page_roomImage__o3uU3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .page_imageCard__Xcdgk:hover .page_roomImage__o3uU3 {
+    transform: scale(1.05);
+  }
+  
+  .page_roomInfo__wCB3g {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+  }
+  
+  .page_roomTitleContainer__T0RTj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .page_roomTitle__5Bdmv {
+    font-weight: 600;
+    color: #2C3E50;
+  }
+  
+  .page_roomDescription__nhYjQ {
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #566573;
+  }
+  
+  .page_featuresList__Dx26X {
+    margin-bottom: 16px;
+  }
+  
+  .page_featuresTitle__XxSgW {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4B6587;
+    margin-bottom: 8px;
+  }
+  
+  .page_features__vOJTB {
+    padding-left: 16px;
+    margin: 8px 0;
+    list-style-type: circle;
+  }
+  
+  .page_features__vOJTB li {
+    margin-bottom: 4px;
+    color: #566573;
+  }
+  
+  .page_amenitiesTitle__0iWen {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4B6587;
+    margin-bottom: 8px;
+  }
+  
+  .page_amenitiesContainer__OXjZc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .page_amenityChip__XExon {
+    background-color: rgba(75, 101, 135, 0.1);
+    color: #4B6587;
+    font-weight: 500;
+  }
+  
+  .page_infoDivider__QOvN3 {
+    margin: 12px 0 !important;
+  }
+  
+  .page_petIconContainer__n7g7f {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
+  
+  .page_petIcon__JScBF {
+    color: rgba(75, 101, 135, 0.4);
+    font-size: 24px;
+  }
+  
+  .page_bookingSection__JOi01 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: rgba(75, 101, 135, 0.05);
+    position: relative;
+  }
+  
+  .page_priceContainer__OdERw {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .page_priceLabel__0dWAI {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .page_price__kwkzB {
+    font-size: 28px;
+    font-weight: 700;
+    color: #F08A5D;
+  }
+  
+  .page_bookingOptions__FAuNN {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .page_bookButton__6X1PE {
+    height: 48px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .page_detailsButton__savKp {
+    border-color: #4B6587;
+    color: #4B6587;
+  }
+  
+  .page_detailsButton__savKp:hover {
+    background-color: rgba(75, 101, 135, 0.08);
+  }
+  
+  .page_promotionBadge__2jZgZ {
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    background-color: #66BB6A;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .page_loadingContainer__9mZ_C {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 16px;
+  }
+  
+  .page_loadingText__uzFzS {
+    color: #4B6587;
+    margin-top: 16px;
+  }
+  
+  @keyframes page_fadeIn__xBWyo {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 960px) {
+    .page_pageHeader__NcaI6 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .page_bookingSection__JOi01 {
+      margin-top: 16px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .page_roomTitleContainer__T0RTj {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .page_pageContainer__vcldY {
+      padding: 16px;
+    }
+    
+    .page_roomCard__Cy6BS {
+      padding: 12px;
+    }
+  }
