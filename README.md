@@ -20,7 +20,7 @@
 
 ---
 
-## Libraly ที่ใช้
+## Library ที่ใช้
 
 - **Next.js** (React framework)  
 - **TypeScript** (optional แต่แนะนำ)  
