@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pet Hotel (Web Programming Project)
 
-## Getting Started
+โปรเจ็ควิชา Web Programming ปี 2 โดยผมได้เลือกทำโปรเจ็ค ปี 2 เป็น “Pet Hotel” เขียนด้วย Next.js กับ React
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Scope งานสามารถทำอะไรได้บ้าง
+
+- **จองห้องพักสัตว์เลี้ยง**  
+  - เพิ่ม–ลบ–แก้ไข ข้อมูลการจอง  
+  - กำหนดวันเช็คอิน–เช็คเอาต์  
+- **จัดการข้อมูลสัตว์เลี้ยง & เจ้าของ**  
+  - ฟอร์มกรอกข้อมูล ชื่อ ประเภท อายุ ฯลฯ  
+- **ดูสถานะห้องว่าง/เต็ม**  
+  - แยกตามประเภทห้อง (Standard / Deluxe / Suite)  
+- **ระบบ Authentication เบื้องต้น**  
+  - Login / Logout (mock user)  
+- **Responsive Design**  
+  - ปรับหน้าเว็บให้สวยงามบนมือถือและเดสก์ท็อป
+
+---
+
+## Libraly ที่ใช้
+
+- **Next.js** (React framework)  
+- **TypeScript** (optional แต่แนะนำ)  
+- **Tailwind CSS** (จัดการสไตลิ่ง)  
+- **React Hook Form** (จัดการฟอร์ม)  
+- **SWR** (ดึง–แคชข้อมูลจาก API)  
+- **Mock API** (ใช้ไฟล์ JSON / Next.js API routes)
+
+---
+
+## ติดตั้งและใช้งาน
+
+1. โคลนโปรเจ็ค
+   ```bash
+   git clone https://github.com/Kasidetx/pet_hotel.git
+   cd pet_hotel
+   ```
+
+2. ติดตั้ง dependencies
+   ```bash
+   npm install
+   # หรือ
+   yarn install
+   ```
+
+3. รันในโหมดพัฒนา
+   ```bash
+   npm run dev
+   # หรือ
+   yarn dev
+   ```
+   แล้วเปิดเบราว์เซอร์ที่ `http://localhost:3000`
+
+4. ถ้าจะ build แล้วรันจริง
+   ```bash
+   npm run build
+   npm start
+   # หรือ
+   yarn build
+   yarn start
+   ```
+
+---
+
+## โครงสร้างโปรเจ็คคร่าว ๆ
+
+```
+/pages
+  ├ index.tsx            – หน้า Home & Dashboard
+  ├ bookings/            – หน้า จัดการการจอง
+  ├ pets/                – หน้า จัดการข้อมูลสัตว์เลี้ยง
+  ├ api/                 – Mock API routes
+/components
+  ├ Layout.tsx           – คอมโพเนนต์ Layout หลัก
+  ├ BookingForm.tsx      – ฟอร์มจองห้อง
+  ├ PetForm.tsx          – ฟอร์มข้อมูลสัตว์เลี้ยง
+  └ ...                  – ส่วนประกอบย่อยอื่น ๆ
+/styles
+  └ globals.css          – สไตล์ทั่วทั้งแอป (Tailwind)
+/data
+  └ mock.json            – ข้อมูลตัวอย่างสำหรับ API
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## อยากลองเพิ่มฟีเจอร์?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. สร้างสาขาใหม่ (branch)  
+2. เขียนโค้ด + commit ตาม convention  
+3. เปิด Pull Request เข้ามาได้เลย  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## หมายเหตุและข้อจำกัด
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Disclaimer:** โปรเจ็คนี้สร้างขึ้นเพื่อการเรียนรู้ในวิชา Web Programming เท่านั้น ไม่ได้เชื่อมต่อกับฐานข้อมูลจริง และห้ามนำโปรเจ็คนี้ไปใช้ในเชิงพาณิชย์
